@@ -9,7 +9,7 @@
 .logo{
     color: #4E47FF;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
 }
 .signup-btn{
     background-color: #4E47FF;
@@ -97,6 +97,7 @@
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    padding: 150px;
 }
 .user-picture{
     display: flex;
@@ -108,4 +109,42 @@
 .review{
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
     border-radius: 5px;
+}
+.formal{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: #D6DDED;
+}
+.let{
+    font-size: 90px;
+    font-weight: bold;
+}
+.formall{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+}
+input[type="text"],input[type="email"],textarea{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+}
+.text-align{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;}
+.description{
+    text-align: center;
+    color: #8987A1;
+    margin-bottom: 40px;
+}
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-decoration: none;
 }
