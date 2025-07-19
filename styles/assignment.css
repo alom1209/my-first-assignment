@@ -64,3 +64,27 @@
     /* max-width: 500px; */
     border-radius: 24px;
 }
+.line{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+}
+.stats{
+    display:flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.users{
+    background-color: #e8eaff;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+}
+.number{
+    font-weight: bold;
+    font-size: 60px;
+    color: #4E47FF;
+}
+.caption{
+    text-align: center;
+}
